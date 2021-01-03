@@ -1,5 +1,7 @@
 # Amazon Clone - project by Sabkuah
 
+- user authentication with Firebase
+
 ## Libraries
 
 - Material UI icons
