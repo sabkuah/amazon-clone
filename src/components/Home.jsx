@@ -12,7 +12,13 @@ function Home() {
         />
 
         <div className="home__row">
-          <Product />
+          <Product
+            title="The Lean Startup: How constant innovation creates radically successful
+          businesses."
+            price={19.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            rating={5}
+          />
           <Product />
         </div>
         <div className="home__row">

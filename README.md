@@ -4,3 +4,5 @@
 
 - Material UI icons
 - SASS
+- React Router Dom
+- react-currency-format
