@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   margin-left: auto;
-  margin-bottom: auto;
-  max-width: 1500;
+  margin-right: auto;
+  max-width: 1500px;
 }
 
 .home__image {
   width: 100%;
   z-index: -1;
-  margin-bottom: -150px;
+  margin-bottom: -20%;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 

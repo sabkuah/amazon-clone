@@ -19,15 +19,40 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
             rating={5}
           />
-          <Product />
+          <Product
+            title="Bose SoundLink Revolve+ Portable and Long-Lasting Bluetooth 360 Speaker - Triple Black"
+            price={299.0}
+            image="https://images-na.ssl-images-amazon.com/images/I/81To0nRciPL._AC_SL1500_.jpg"
+            rating={4}
+          />
         </div>
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            title="Eddie Bauer 216689 Cabin Plaid Flannel Sherpa Throw, Red"
+            price={36.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/81qj0YxbnXL._AC_SL1500_.jpg"
+            rating={5}
+          />
+          <Product
+            title="Spikeball Game Set (3 Ball Kit) - Outdoor Indoor Gift for Teens, Family - Yard, Lawn, Beach, Tailgate - Includes Playing Net, 3 Balls, Drawstring Bag, Rule Book- As Seen on Shark Tank"
+            price={79.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/613F9k5QUbL._AC_SL1194_.jpg"
+            rating={4}
+          />
+          <Product
+            title="Hydro Flask Water Bottle - Standard Mouth Flex Lid - 18 oz, Hibiscus"
+            price={46.79}
+            image="https://images-na.ssl-images-amazon.com/images/I/51ZxZTleAmL._AC_SL1500_.jpg"
+            rating={5}
+          />
         </div>
         <div className="home__row">
-          <Product />
+          <Product
+            title="100 Animals: An Adult Coloring Book with Lions, Elephants, Owls, Horses, Dogs, Cats, and Many More! Paperback – Large Print"
+            price={11.47}
+            image="https://images-na.ssl-images-amazon.com/images/I/81DarbmirxL.jpg"
+            rating={3}
+          />
         </div>
       </div>
     </div>
