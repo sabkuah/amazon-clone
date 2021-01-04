@@ -15,6 +15,7 @@
 - react-currency-format
 - Firebase
 - Stripe
+- Axios
 
 npm i @stripe/stripe-js
 npm i @stripe/react-stripe-js
