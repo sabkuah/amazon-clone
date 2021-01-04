@@ -1,7 +1,7 @@
 .product {
   @include flex-align-center;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin: 10px;
   padding: 20px;
   width: 100%;
@@ -24,11 +24,11 @@
 
 .product__info {
   height: 100px;
-  //margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 // .product__price {
-//   //margin-top: 100px;
+//   margin-top: 100px;
 // }
 
 .product__rating {
