@@ -4,7 +4,8 @@
 
 - user authentication with Firebase
 - Stripe payment processing
-- BEM naming
+- Cloud functions with FireStore
+- BEM naming conventions for styling
 
 ## Libraries
 
@@ -13,3 +14,7 @@
 - React Router Dom
 - react-currency-format
 - Firebase
+- Stripe
+
+npm i @stripe/stripe-js
+npm i @stripe/react-stripe-js

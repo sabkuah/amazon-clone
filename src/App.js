@@ -8,6 +8,13 @@ import { auth } from "./firebase";
 import { useStateValue } from "./utils/StateProvider";
 import { useEffect } from "react";
 import Payment from "./components/Payment";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+
+//loadStripe with 'publishable key' from Stripe
+const promise = loadStripe(
+  "pk_test_51I5nf0K3XWmnPvma3w60WaN2XzxWvj8xZdsOwVADjNqwcGSKacJUfSdsOMYf7JTvFEBEnzYR956zSkS2wEMLtHLn00FC6dTXc0"
+);
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -47,7 +54,10 @@ function App() {
           </Route>
           <Route path="/payment">
             <Header />
-            <Payment />
+            {/* This is an example of an higher order function */}
+            <Elements stripe={promise}>
+              <Payment />
+            </Elements>
           </Route>
 
           <Route path="/">
