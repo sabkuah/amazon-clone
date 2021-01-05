@@ -17,6 +17,7 @@
 - Stripe
 - Axios
 - Express
+- Moment
 
 npm i @stripe/stripe-js
 npm i @stripe/react-stripe-js
