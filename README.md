@@ -16,6 +16,7 @@
 - Firebase
 - Stripe
 - Axios
+- Express
 
 npm i @stripe/stripe-js
 npm i @stripe/react-stripe-js
