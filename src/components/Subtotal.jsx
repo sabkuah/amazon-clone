@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 
 function Subtotal() {
   const history = useHistory();
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
 
   return (
     <div className="subtotal">
@@ -29,7 +29,7 @@ function Subtotal() {
       />
 
       {/* redirects the user while keeping the styling of the button without it looking like a link */}
-      <button onClick={(e) => history.push("/payment")}>
+      <button onClick={(e) => history.push(user ? "/payment" : "/login")}>
         Proceed to Checkout
       </button>
     </div>
