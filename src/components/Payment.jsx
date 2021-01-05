@@ -103,17 +103,17 @@ function Payment() {
         <div className="payment__section">
           <div className="payment__title">
             <h3>Review Items and Delivery</h3>
-            <div className="payment__items">
-              {basket.map((item) => (
-                <CheckoutProduct
-                  id={item.id}
-                  title={item.title}
-                  price={item.price}
-                  rating={item.rating}
-                  image={item.image}
-                />
-              ))}
-            </div>
+          </div>
+          <div className="payment__items">
+            {basket.map((item) => (
+              <CheckoutProduct
+                id={item.id}
+                title={item.title}
+                price={item.price}
+                rating={item.rating}
+                image={item.image}
+              />
+            ))}
           </div>
         </div>
 
@@ -124,7 +124,9 @@ function Payment() {
           <div className="payment__details">
             {/* Stripe magic */}
             <form onSubmit={handleSubmit}>
-              <CardElement onChange={handleChange} />
+              <div className="payment__cardElement">
+                <CardElement onChange={handleChange} />
+              </div>
               <div className="payment__priceContainer">
                 <CurrencyFormat
                   renderText={(value) => (
