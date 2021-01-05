@@ -13,20 +13,20 @@
 
 Add/Delete items to cart, user authentication:
 
-<img src="public/amazon-1.gif" alt="Screen Capture of amazon-clone" width="400px" />
+<img src="public/amazon-1.gif" alt="Screen Capture of amazon-clone" width="800px" />
 
 
 Checkout with Stripe payment, user's order history in descending order:
 
-<img src="public/amazon-2.gif" alt="Screen Capture of amazon-clone" width="400px" />
+<img src="public/amazon-2.gif" alt="Screen Capture of amazon-clone" width="800px" />
 
 Log of Stripe payments processed:
 
-<img src="public/amazon-3.png" alt="Screen Capture of amazon-clone" width="300px" />
+<img src="public/amazon-3.png" alt="Screen Capture of amazon-clone" width="600px" />
 
 Cloud Firestore database of order history:
 
-<img src="public/amazon-4.png" alt="Screen Capture of amazon-clone" width="300px" />
+<img src="public/amazon-4.png" alt="Screen Capture of amazon-clone" width="600px" />
 
 
 
