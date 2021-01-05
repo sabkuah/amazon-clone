@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import Payment from "./components/Payment";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
+import Orders from "./components/Orders";
 
 //loadStripe with 'publishable key' from Stripe
 const promise = loadStripe(
@@ -58,6 +59,10 @@ function App() {
             <Elements stripe={promise}>
               <Payment />
             </Elements>
+          </Route>
+          <Route path="/orders">
+            <Header />
+            <Orders />
           </Route>
 
           <Route path="/">
