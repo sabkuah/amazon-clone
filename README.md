@@ -11,17 +11,24 @@
 
 ### Demos
 
-Add/Delete items to cart, user authentication
-![ScreenCapture of Clone](public/amazon-1.gif)
+Add/Delete items to cart, user authentication:
 
-Checkout with Stripe payment, user's order history in descending order
-![ScreenCapture of Clone](public/amazon-2.gif)
+<img src="public/amazon-1.gif" alt="Screen Capture of amazon-clone" width="400px" />
 
-Log of Stripe payments processed
-![ScreenCapture of Clone](public/amazon-3.png)
 
-Cloud Firestore database of order history
-![ScreenCapture of Clone](public/amazon-4.png)
+Checkout with Stripe payment, user's order history in descending order:
+
+<img src="public/amazon-2.gif" alt="Screen Capture of amazon-clone" width="400px" />
+
+Log of Stripe payments processed:
+
+<img src="public/amazon-3.png" alt="Screen Capture of amazon-clone" width="300px" />
+
+Cloud Firestore database of order history:
+
+<img src="public/amazon-4.png" alt="Screen Capture of amazon-clone" width="300px" />
+
+
 
 ### Libraries
 
